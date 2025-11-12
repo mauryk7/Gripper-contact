@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EngineeringData version="22.2.0.230" versiondate="31/08/2022 13:00:00">
+  <Notes>
+  </Notes>
+  <Materials>
+    <MatML_Doc>
+      <Material>
+        <BulkDetails>
+          <Name>Structural Steel</Name>
+          <Description>Generic structural steel</Description>
+          <PropertyData property="pr0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa0" format="float">
+              <Data>7850</Data>
+              <Qualifier name="Variable Type">Constant</Qualifier>
+              <Qualifier name="Units">kg m^-3</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr1">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa1" format="float">
+              <Data>200000000000</Data>
+              <Qualifier name="Variable Type">Constant</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa2" format="float">
+              <Data>0.3</Data>
+              <Qualifier name="Variable Type">Constant</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa3" format="float">
+              <Data>166666666666.66666</Data>
+              <Qualifier name="Variable Type">Constant</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Metadata>
+        <ParameterDetails id="pa0">
+          <Name>Density</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa1">
+          <Name>Young's Modulus</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa2">
+          <Name>Poisson's Ratio</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa3">
+          <Name>Bulk Modulus</Name>
+        </ParameterDetails>
+        <PropertyDetails id="pr0">
+          <Name>Density</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr1">
+          <Name>Isotropic Elasticity</Name>
+        </PropertyDetails>
+      </Metadata>
+    </MatML_Doc>
+  </Materials>
+</EngineeringData>
